@@ -1,1 +1,3 @@
-/* Put code for the task below */
+function btn24(){
+  window.open("newPage.html");
+}

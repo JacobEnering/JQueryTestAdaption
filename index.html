@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>HTML File for Students' Test</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="assets/css/styles.css">
 		<script src="assets/javascript/task1.js"></script>
 		<script src="assets/javascript/task2.js"></script>
@@ -25,7 +26,8 @@
 					<li><a href="#">Nav Link 5</a></li>
 					<li><a href="#">Nav Link 6</a></li>
 					<li><a href="#">Nav Link 7</a></li>
-					<!-- Button for Task 3 should be placed here -->
+					<button type="button" onClick="btn24()">New Page</button>
+			   	<button id="btn12">IT</button>
 
 				</ul>
 			</div>
@@ -38,7 +40,7 @@
 
 					<!-- Paragraphs -->
 					<h3>Basic Directions</h3>
-					<p>This project is meant to assess your understanding of Javascript usage within a webpage.  There are five tasks that you must complete.  The tasks are functionality that will be added to this page.  Inside of the folder you found this html file, you will see a folder called "assets".  Within that, another folder called "javascript" has 5 files labeled task1.js to task5.js.  For each task, place your javascript code within the appropriate file.  The files are already linked to this page in the <b>head</b> of this document.  The instructions for each task are listed below.</p>
+					<p id="Basic">This project is meant to assess your understanding of Javascript usage within a webpage.  There are five tasks that you must complete.  The tasks are functionality that will be added to this page.  Inside of the folder you found this html file, you will see a folder called "assets".  Within that, another folder called "javascript" has 5 files labeled task1.js to task5.js.  For each task, place your javascript code within the appropriate file.  The files are already linked to this page in the <b id="Basic">head</b> of this document.  The instructions for each task are listed below.</p>	<p id="Clicked" hidden>I Clicked it!</p>
 					<hr>
 
 					<h3>Tasks</h3>
@@ -50,7 +52,7 @@
 						<li>Check that all fields within the form are filled out.  In addition, verify the validity of the phone number field (make sure it has exactly 10 characters).</li>
 						<li>Create a button within the navigation called "clear" which opens a new page with the text "new page has been created".</li>
 					</ol>
-					<hr>
+				</hr>
 
 
 
@@ -67,7 +69,7 @@
 					<hr>
 
 					<h3>Task 2 - The Table</h3>
-					<!-- Buttons for this task should be entered before the table tag. -->
+
 
 
 					<table class="table table-striped">
